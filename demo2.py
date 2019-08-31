@@ -69,7 +69,6 @@ students = {
     }
 }
 for key,student in students.items():
-    # print(student)
     print('{key}: {first_name} {last_name}'.format(
         key=key,
         first_name=student['first_name'],
